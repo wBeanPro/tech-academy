@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* #page {
+  width: 50%;
+  background-color: yellow;
+  border: 1px solid red;
+} */
+
+.dobro {
+  font-size: 2em;
+}
+
+span {
+  background-color: pink;
+}
