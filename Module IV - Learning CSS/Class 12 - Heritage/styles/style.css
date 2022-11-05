@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* 
+  A borda não é uma propriedade
+  que os elementos filhos herdam
+  normalmente, mas é possível forçar
+  esse comportamento, com o inherit
+*/
+
+div {
+  border: 3px solid red;
+}
+
+h1 {
+  border: inherit;
+}
