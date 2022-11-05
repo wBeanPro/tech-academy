@@ -1,0 +1,16 @@
+body {
+  background-color: aquamarine;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 150px;
+  background-color: green;
+  color: #fff;
+}
+
+p {
+  font-size: 35px;
+  background-color: #fff;
+  color: purple;
+}
