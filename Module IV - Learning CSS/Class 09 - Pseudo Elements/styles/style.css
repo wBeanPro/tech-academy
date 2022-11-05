@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+h1::first-letter {
+  color: darkblue;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p::first-line {
+  color: red;
+}
+
+::marker {
+  color: green;
+}
+
+::selection {
+  background-color: yellow;
+  color: red;
+}
