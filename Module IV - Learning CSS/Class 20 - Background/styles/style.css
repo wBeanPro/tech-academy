@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  background-image: url("https://www.w3schools.com/css/paper.gif");
+  background-color: #abfacc;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
