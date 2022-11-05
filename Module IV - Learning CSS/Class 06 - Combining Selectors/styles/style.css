@@ -1,0 +1,29 @@
+/*
+ Resetando as propriedades padrão   
+*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 26px;
+}
+
+/* Title */
+.title {
+  font-size: 50px;
+  color: aquamarine;
+}
+
+/* Subtitle */
+.section > .title {
+  font-size: 30px;
+}
+
+/*
+  h1, p {
+    background-color: cornflowerblue;
+    text-align: center;
+  }
+*/
