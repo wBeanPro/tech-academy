@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+div .intro {
+  background-color: purple;
+}
+div h1 {
+  background-color: green;
+}
+h1 {
+  background-color: red;
+}
+.intro {
+  background-color: yellow;
+}
