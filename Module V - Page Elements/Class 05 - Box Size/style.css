@@ -1,0 +1,22 @@
+.div1 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  border: 10px solid blue;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 10px solid blue;
+}
+
+#page div {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  padding: 30px;
+}
