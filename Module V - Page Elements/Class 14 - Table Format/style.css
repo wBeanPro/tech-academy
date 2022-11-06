@@ -1,0 +1,18 @@
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th {
+  text-align: left;
+  padding: 3px 15px;
+  background-color: #ffffaa;
+  border-bottom: 2px solid #ccccaa;
+}
+
+td {
+  margin: 0;
+  padding: 3px 15px;
+  border-bottom: 1px solid gray;
+}
