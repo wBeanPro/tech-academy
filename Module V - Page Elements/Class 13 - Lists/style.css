@@ -1,0 +1,44 @@
+ol.romano {
+  list-style-type: lower-roman;
+  border: 1px solid red;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 40px;
+}
+
+.romano li {
+  background-color: pink;
+  margin-bottom: 5px;
+}
+
+ul.quad {
+  list-style-type: circle;
+}
+
+ul.img {
+  list-style-image: url("IMAGE_LINK");
+}
+
+ul.menu {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid red;
+}
+
+ul.menu li {
+  display: block;
+  float: left;
+  padding: 5px 10px;
+}
+
+ul.menu li a {
+  text-decoration: none;
+}
+
+ul.menu li:hover {
+  background-color: cyan;
+}
+
+ul.menu li:hover a {
+  text-decoration: underline;
+}
