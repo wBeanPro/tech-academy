@@ -1,0 +1,42 @@
+body {
+  background-color: pink;
+  padding: 0;
+}
+
+#menu {
+  background-color: #444;
+  position: fixed;
+  color: #fff;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  margin: 0;
+  z-index: 100;
+}
+
+.black-box {
+  position: relative;
+  z-index: 10;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+  background-color: #fff;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3;
+  background-color: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+#caixa {
+  position: relative;
+  width: 50%;
+  height: 100px;
+  overflow: hidden;
+  border: 1px solid red;
+}
