@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Images/logo.svg" width="180" /><br /><br />
+  <img src="Images/logo.svg" width="180" /><br />
   <h1>StartSe Tech Academy</h1>
 </div>
 
@@ -16,14 +16,14 @@
 
 ## 🟢 Qual é o objetivo dessa Formação?
 
-1. ### Capacitar talentos em estágio inicial de desenvolvimento para atuar em tecnologia. Formar desenvolvedores júnior com as soft skills necessárias, contando com a Jornada para o Futuro da Cia de Talentos.
-2. ### Apoiar os participantes do programa a ocupar posições em tecnologia no mercado de trabalho por meio de certificado.
-3. ### Formar uma rede de profissionais em tecnologia que recebe suporte de carreira, desenvolvimento técnico e de competências e habilidades necessárias para alcance de objetivos profissionais.
-4. ### Conectar os novos talentos de tecnologia com as melhores empresas do mercado.
+1. Capacitar talentos em estágio inicial de desenvolvimento para atuar em tecnologia. Formar desenvolvedores júnior com as soft skills necessárias, contando com a Jornada para o Futuro da Cia de Talentos.
+2. Apoiar os participantes do programa a ocupar posições em tecnologia no mercado de trabalho por meio de certificado.
+3. Formar uma rede de profissionais em tecnologia que recebe suporte de carreira, desenvolvimento técnico e de competências e habilidades necessárias para alcance de objetivos profissionais.
+4. Conectar os novos talentos de tecnologia com as melhores empresas do mercado.
 
 ## 🟢 Jornada para o Futuro: Imersão TECH
 
-<div align="center">
+<div>
   <img src="Images/partner-1.png" width="250px" />
   <img align="right" src="Images/partner-2.png" width="250px" />
 </div>
@@ -113,5 +113,10 @@ A StartSe TechAcademy foi desenvolvida pensando nisso. Ela visa incluir gratuita
 E quanto mais formos bem-sucedidos nesse sonho, mais estaremos contribuindo para acelerar a transformação do País.
 
 </p>
+<br />
 
-<img src="Images/footer.png" />
+<div align="center">
+
+> Feito com 💚 por CésarCanoff
+
+</div>
