@@ -1,0 +1,43 @@
+p {
+  border: 1px solid red;
+  background-color: pink;
+  margin: 10px;
+}
+
+p.ex1 {
+  display: none;
+}
+
+p.ex1a {
+  display: hidden;
+}
+
+p.ex2 {
+  display: inline;
+}
+
+p.ex3 {
+  display: block;
+}
+
+p.ex4 {
+  display: inline-block;
+  width: 300px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  nav li {
+    display: block;
+    padding: 0;
+  }
+
+  h1 {
+    display: none;
+  }
+}
