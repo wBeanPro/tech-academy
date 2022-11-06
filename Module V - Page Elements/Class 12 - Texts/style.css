@@ -1,0 +1,25 @@
+p {
+  text-align: justify;
+  line-height: 1.2em;
+  text-indent: 3em;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+  font-variant: small-caps;
+}
+
+p > span {
+  font-size: 1.7em;
+  color: red;
+  vertical-align: sub;
+  text-decoration-line: underline overline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+}
+
+p.especial {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: " (continua...)";
+  background-color: pink;
+  margin-bottom: 20px;
+}
