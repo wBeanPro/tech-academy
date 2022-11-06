@@ -1,0 +1,35 @@
+img {
+  float: right;
+  margin: 5px 20px;
+  height: 150px;
+}
+
+p {
+  border: 2px solid red;
+}
+
+.clear {
+  clear: both;
+  background-color: red;
+}
+
+#page div {
+  box-sizing: border-box;
+  float: left;
+  border: 1px solid red;
+  height: 100%;
+  padding: 10px;
+}
+
+.col3 {
+  width: 30%;
+}
+
+.col4 {
+  width: 40%;
+}
+
+#cabecalho {
+  min-height: 150px;
+  background-color: lightgreen;
+}
