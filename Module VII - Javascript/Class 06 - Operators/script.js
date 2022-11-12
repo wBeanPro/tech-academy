@@ -23,6 +23,13 @@
   IGUAL A - ==
   IDÊNTICOS - ===
   DIFERENTE DE - !=
+
+  =============================================================
+  OPERADOR NOT - !
+  Esse operador (!), nega o valor a qual ele antecede,
+  ou seja, se a variável A possui o valor FALSE, a expressão
+  (!A) resulta em TRUE, entretanto, essa expressão não altera
+  o valor da variável RAIZ.
 */
 
 // VARIÁVEIS
@@ -55,3 +62,7 @@ console.log(5 === "5"); // FALSE
 console.log(5 === 5); // TRUE
 console.log(5 != "5"); // FALSE
 console.log(5 !== 5); // TRUE
+
+// NOT
+let isPerson = true;
+console.log(!isPerson); // FALSE
