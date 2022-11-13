@@ -15,9 +15,20 @@ function addTask(textOfTask) {
 
   spanElement.setAttribute("id", "task");
   spanElement.textContent = textOfTask;
+  spanElement.className = "notDo";
 
   liElement.appendChild(spanElement);
   liElement.appendChild(addRemoveButton());
+
+  spanElement.addEventListener("click", () => {
+    if (this.id === "task") {
+      if (this.parentNode.className === "notDo") {
+        this.parentNode.className = "done";
+      } else {
+        this.parentNode.className = "notDo";
+      }
+    }
+  });
 
   return liElement;
 }
