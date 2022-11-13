@@ -43,3 +43,29 @@ function addRemoveButton() {
 
   return removeButton;
 }
+
+function showOrHideDropDownList() {
+  const spanElement = document.querySelector("#task");
+  if (spanElement === null) {
+    dropDownList.setAttribute("hidden", "hidden");
+  } else {
+    dropDownList.removeAttribute("hidden");
+  }
+}
+
+dropDownList.addEventListener("change", () => {
+  if (dropDownList.selectedIndex === 1 || dropDownList.selectedIndex === 2) {
+    const taskVet = taskList.querySelectorAll("#task");
+    for (task of taskVet) {
+      task.dispatchEvent(new Event("click"));
+    }
+  } else if (
+    dropDownList.selectedIndex === 1 ||
+    dropDownList.selectedIndex === 2
+  ) {
+    const taskVet = taskList.querySelectorAll(".remove");
+    for (task of taskVet) {
+      task.dispatchEvent(new Event("click"));
+    }
+  }
+});
