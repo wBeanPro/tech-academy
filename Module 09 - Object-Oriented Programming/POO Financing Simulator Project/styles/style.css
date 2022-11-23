@@ -15,3 +15,11 @@ body {
   background-color: #04042d;
   color: #fff;
 }
+
+table,
+th,
+td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  padding: 15px;
+}
