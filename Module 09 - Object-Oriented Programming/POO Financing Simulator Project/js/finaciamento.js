@@ -1,6 +1,6 @@
 import { Parcela } from "./parcela";
 
-class Financiamento {
+export class Financiamento {
   #taxaJuros;
   #prazo;
   #parcelas = [];
