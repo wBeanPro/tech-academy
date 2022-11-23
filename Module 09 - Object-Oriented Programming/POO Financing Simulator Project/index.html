@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>POO - Financing Simulator</title>
+  </head>
+  <body>
+    <h2>
+      Simulador de Financiamento com Sistema de Amortização Constante (SAC)
+    </h2>
+    <input type="text" id="textoValor" placeholder="Valor BEM:" /><br />
+    <input type="text" id="textoEntrada" placeholder="Valor entrada:" /><br />
+    <input
+      type="text"
+      id="textoTaxaJuros"
+      placeholder="Valor Taxa de Juros: (%)"
+    /><br />
+    <input
+      type="text"
+      id="textoPrazo"
+      placeholder="Valor Prazo: (MESES)"
+    /><br />
+    <button id="botaoCalcular">Calcular</button>
+    <input type="checkbox" id="comCarencia" />Com carência?
+    <select id="listaSuspensa" hidden>
+      <option value="2">2 Meses</option>
+      <option value="3">3 Meses</option>
+      <option value="4">4 Meses</option>
+    </select>
+    <script src="js/index.js"></script>
+  </body>
+</html>
