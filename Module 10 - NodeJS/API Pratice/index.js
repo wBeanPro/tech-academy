@@ -42,3 +42,16 @@ app.post("/users", (request, response) => {
 
   return response.status(StatusCodes.CREATED).send(newUser);
 });
+
+app.put("/users/:userId", (request, response) => {
+  const userId = request.params.userId;
+  const updatedUser = request.body;
+
+  users = users.map((user) => {
+    if (Number(userId) === user.id) return updatedUser;
+
+    return user;
+  });
+
+  return response.send(updatedUser);
+});
