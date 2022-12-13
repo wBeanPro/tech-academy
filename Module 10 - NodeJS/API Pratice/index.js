@@ -55,3 +55,11 @@ app.put("/users/:userId", (request, response) => {
 
   return response.send(updatedUser);
 });
+
+app.delete("/users/:userId", (request, response) => {
+  const userId = request.params.userId;
+
+  user = user.filter((user) => user.id !== Number(userId));
+
+  return response.status(StatusCodes.NO_CONTENT).send();
+});
