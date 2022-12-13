@@ -1,7 +1,10 @@
 import express from "express";
+import { StatusCodes } from "http-status-codes";
 
 const app = express();
 const PORT = 3000;
+
+app.use(express.json());
 
 let users = [
   { id: 1, name: "Anna", age: 22, country: "United States of America" },
@@ -27,7 +30,15 @@ app.get("/users", (request, response) => {
 app.get("/users/:userId", (request, response) => {
   const userId = request.params.userId;
   const user = users.find((user) => {
-    return (user.id === Number(userId));
+    return user.id === Number(userId);
   });
   return response.send(user);
+});
+
+app.post("/users", (request, response) => {
+  const newUser = request.body;
+
+  users.push(newUser);
+
+  return response.status(StatusCodes.CREATED).send(newUser);
 });
