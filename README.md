@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="./README-pt-BR.md" title="Traduzir para Português (BR)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9OrU-515I2yoUzp2eBxRr5esQSED4Tce19LeNxfsxQ&s" align="right" width="40px" height="30px" /></a>
+ 
   <img src="Images/logo.svg" width="180" /><br />
   <h1>StartSe Tech Academy</h1>
 </div>
@@ -34,7 +34,6 @@ The Journey to the Future is an initiative of the Cia de Talentos Group which, w
 <p>
 We know that the technology market has never been so hot. In this scenario, having technical knowledge is expected, but enhancing social and emotional skills is what can differentiate professionals. That is why Imersão Tech aims to develop these competencies in people in the technology area and prepare them for the new challenges that are emerging.
 </p>
-<a href="https://www.startse.com/techacademy/clkn/https/jornadaparaofuturo.com.br/">Clique aqui</a> e fique por dentro.
 
 <hr />
 
@@ -118,5 +117,5 @@ And the more we succeed in this dream, the more we will be contributing to accel
 
 <div align="center">
 
-> Made with 💚 by CésarCanoff
+> Made with 💚 by Woo Bin
 </div>
